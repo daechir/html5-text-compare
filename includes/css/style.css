@@ -1,0 +1,97 @@
+/************************************************
+Space themed matching palette scheme hex codes
+Genereated with https://mycolor.space/
+*************************************************
+#2e3131 (Base color)
+#324b4b
+#95b0b1
+#422b20
+#74584c
+
+*************************************************
+Sources
+*************************************************
+Font - https://github.com/adobe-fonts/source-code-pro
+Icon - https://www.flaticon.com/free-icon/galaxy-view_80934
+Background - https://www.toptal.com/designers/subtlepatterns/stardust/
+
+************************************************/
+
+@font-face {
+  font-family: "SCV";
+  src: url(../font/Source Code Variable.woff);
+  src: url(../font/Source Code Variable.woff2);
+}
+
+html,body { font-family: "SCV"; }
+
+h1,h2 { color: #95b0b1; }
+h1 { font-size: 2.4rem;}
+h2 { font-size: 2rem; }
+
+main {
+	background: #2e3131 url("../img/stardust.png") repeat; 
+	max-width: 100%;
+	min-height: 100vh;
+	padding: 2%;
+	width: 100%;
+}
+
+form {
+	margin: 30px 0 45px;
+}
+
+ul  {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	flex: 1;
+	padding: 0.75% 0.2%;
+}
+
+ul li textarea,ul li p {
+	background: #324b4b;
+	border-radius: 5px;
+	border: none;
+	color: #95b0b1;
+	line-height: 32px;
+	max-width: 100%;
+	min-height: 150px;
+	width: 100%;
+}
+
+ul li textarea {
+	padding: 0 1%;
+}
+
+input[type="Submit"] {
+	background: #324b4b;
+	border-radius: 5px;
+	border: none;
+	color: #95b0b1;
+	padding: 0.5% 1%;
+}
+
+p {
+	max-height: 400px;
+	opacity: 0;
+	overflow-y: scroll;
+	white-space: pre-wrap;
+}
+
+span.number {
+	background: #422b20;
+	color: #74584c;
+	display: inline-block;
+	margin-right: 8px;
+	text-align: center;
+	width: 50px;
+}
+
+span.highlight {
+	background: #2e3131;
+}
